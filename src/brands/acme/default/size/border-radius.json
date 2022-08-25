@@ -1,0 +1,13 @@
+{
+  "size": {
+    "border-radius": {
+      "none": { "value": "0px" },
+      "xs": { "value": "2px" },
+      "sm": { "value": "4px" },
+      "md": { "value": "8px" },
+      "lg": { "value": "12px" },
+      "xl": { "value": "16px" },
+      "full": { "value": "9999px" }
+    }
+  }
+}

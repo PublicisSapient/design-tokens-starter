@@ -1,0 +1,126 @@
+{
+  "asset": {
+    "icon": {
+      "activity": {
+        "value": "activity.svg"
+      },
+      "airplay": {
+        "value": "airplay.svg"
+      },
+      "alert-circle": {
+        "value": "alert-circle.svg"
+      },
+      "alert-octagon": {
+        "value": "alert-octagon.svg"
+      },
+      "alert-triangle": {
+        "value": "alert-triangle.svg"
+      },
+      "align-center": {
+        "value": "align-center.svg"
+      },
+      "align-justify": {
+        "value": "align-justify.svg"
+      },
+      "align-left": {
+        "value": "align-left.svg"
+      },
+      "align-right": {
+        "value": "align-right.svg"
+      },
+      "anchor": {
+        "value": "anchor.svg"
+      },
+      "aperture": {
+        "value": "aperture.svg"
+      },
+      "archive": {
+        "value": "archive.svg"
+      },
+      "arrow-down-circle": {
+        "value": "arrow-down-circle.svg"
+      },
+      "arrow-down-left": {
+        "value": "arrow-down-left.svg"
+      },
+      "arrow-down-right": {
+        "value": "arrow-down-right.svg"
+      },
+      "arrow-down": {
+        "value": "arrow-down.svg"
+      },
+      "arrow-left-circle": {
+        "value": "arrow-left-circle.svg"
+      },
+      "arrow-left": {
+        "value": "arrow-left.svg"
+      },
+      "arrow-right-circle": {
+        "value": "arrow-right-circle.svg"
+      },
+      "arrow-right": {
+        "value": "arrow-right.svg"
+      },
+      "arrow-up-circle": {
+        "value": "arrow-up-circle.svg"
+      },
+      "arrow-up-left": {
+        "value": "arrow-up-left.svg"
+      },
+      "arrow-up-right": {
+        "value": "arrow-up-right.svg"
+      },
+      "arrow-up": {
+        "value": "arrow-up.svg"
+      },
+      "at-sign": {
+        "value": "at-sign.svg"
+      },
+      "award": {
+        "value": "award.svg"
+      },
+      "bar-chart-2": {
+        "value": "bar-chart-2.svg"
+      },
+      "bar-chart": {
+        "value": "bar-chart.svg"
+      },
+      "battery-charging": {
+        "value": "battery-charging.svg"
+      },
+      "battery": {
+        "value": "battery.svg"
+      },
+      "bell-off": {
+        "value": "bell-off.svg"
+      },
+      "bell": {
+        "value": "bell.svg"
+      },
+      "bluetooth": {
+        "value": "bluetooth.svg"
+      },
+      "bold": {
+        "value": "bold.svg"
+      },
+      "book-open": {
+        "value": "book-open.svg"
+      },
+      "book": {
+        "value": "book.svg"
+      },
+      "bookmark": {
+        "value": "bookmark.svg"
+      },
+      "box": {
+        "value": "box.svg"
+      },
+      "briefcase": {
+        "value": "briefcase.svg"
+      },
+      "calendar": {
+        "value": "calendar.svg"
+      }
+    }
+  }
+}

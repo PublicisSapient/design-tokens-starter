@@ -1,0 +1,50 @@
+{
+  "name": "design-tokens-starter",
+  "version": "0.0.0-development",
+  "description": "Design Tokens Starter Project",
+  "author": "Ryan Fitzer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PublicisSapient/design-tokens-starter.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "build": "npm run tokens && npm run tailwind && npm run pkg && npm run docs",
+    "tokens": "node scripts/style-dictionary",
+    "tailwind": "node scripts/tailwind",
+    "pkg": "node scripts/pkg",
+    "docs": "node scripts/docs",
+    "assets": "node scripts/assets",
+    "test": "nyc --reporter=lcov --reporter=text ava",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "autoprefixer": "^10.4.8",
+    "ava": "^4.3.3",
+    "chalk": "^4.1.2",
+    "conventional-changelog-eslint": "^3.0.9",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "fs-extra": "^10.1.0",
+    "globby": "^11.0.4",
+    "handlebars": "^4.7.7",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "nyc": "^15.1.0",
+    "postcss": "^8.4.16",
+    "postcss-import": "^14.1.0",
+    "prettier": "^2.7.1",
+    "semantic-release": "^19.0.5",
+    "style-dictionary": "^3.7.1",
+    "svgo": "^2.8.0",
+    "tailwindcss": "^3.1.8",
+    "url-regex-safe": "^3.0.0"
+  }
+}

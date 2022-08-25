@@ -1,0 +1,33 @@
+{
+  "endOfLine": "lf",
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "quoteProps": "as-needed",
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "tabWidth": 2,
+        "singleQuote": false,
+        "printWidth": 160
+      }
+    },
+    {
+      "files": "*.js",
+      "options": {
+        "tabWidth": 4
+      }
+    },
+    {
+      "files": ["*.css", "*.scss"],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}

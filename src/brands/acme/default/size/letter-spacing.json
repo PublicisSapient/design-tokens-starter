@@ -1,0 +1,14 @@
+{
+  "size": {
+    "letter-spacing": {
+      "normal": { "value": "normal" },
+      "xs": { "value": "0.2px" },
+      "sm": { "value": "0.4px" },
+      "md": { "value": "0.8px" },
+      "lg": { "value": "1px" },
+      "xl": { "value": "1.25px" },
+      "2xl": { "value": "1.75px" },
+      "3xl": { "value": "2px" }
+    }
+  }
+}

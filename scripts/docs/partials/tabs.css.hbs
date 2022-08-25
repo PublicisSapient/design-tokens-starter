@@ -1,0 +1,47 @@
+<style>
+  .tabs {
+    margin-top: 50px;
+  }
+
+  [role="tablist"] {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+  }
+
+  [role="tab"] {
+    margin: 0;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    padding: 10px 0;
+    cursor: pointer;
+    background: none;
+    position: relative;
+    border-bottom: 1px solid #000;
+  }
+
+  [role="tab"][aria-selected="true"] {
+    cursor: default;
+    border-top: 4px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: none;
+  }
+
+  [role="tab"][aria-selected="true"]:first-child {
+    border-left: none;
+    border-right: 1px solid #000;
+  }
+
+  [role="tab"][aria-selected="true"]:last-child {
+    border-right: none;
+    border-left: 1px solid #000;
+  }
+
+  [role="tabpanel"] {
+    z-index: 2;
+    outline: none;
+    position: relative;
+  }
+</style>

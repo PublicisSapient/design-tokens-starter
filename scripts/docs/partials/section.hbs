@@ -1,0 +1,36 @@
+<section data-section="{{ title }}">
+
+  {{> heading
+      level=3
+      title=title
+  }}
+
+  <table>
+    <thead>
+      <td class="heading-identifier">Identifier</td>
+      <td class="heading-value center">Value</td>
+      <td class="heading-example center">Example</td>
+    </thead>
+    <tbody>
+      {{#each ctx}}
+        <tr>
+          <td class="identifier">
+            {{> identity ctx=attributes.identity }}
+          </td>
+          <td class="value">
+            <pre>{{value}} {{~#if ../original-value}} /*{{original.value}}*/{{/if}}</pre>
+          </td>
+          <td class="example">
+            {{> (lookup .. 'example')
+                value=value
+                attrs=attributes
+                classname=attributes.identity.classname
+                variable=attributes.identity.vars.css
+            }}
+          </td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+
+</section>

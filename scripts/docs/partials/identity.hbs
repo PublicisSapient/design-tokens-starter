@@ -1,0 +1,12 @@
+<ul>
+  {{#each ctx.vars}}
+    <li>
+      <span>{{@key}}</span><code>{{this}}</code>
+    </li>
+  {{/each}}
+  {{#if ctx.classname}}
+    <li>
+      <span>class</span><code>{{ctx.classname}}</code>
+    </li>
+  {{/if}}
+</ul>

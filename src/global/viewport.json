@@ -1,0 +1,19 @@
+{
+  "viewport": {
+    "xs": {
+      "value": "screen and (min-width: {size.breakpoint.xs.value})"
+    },
+    "sm": {
+      "value": "screen and (min-width: {size.breakpoint.sm.value})"
+    },
+    "md": {
+      "value": "screen and (min-width: {size.breakpoint.md.value})"
+    },
+    "lg": {
+      "value": "screen and (min-width: {size.breakpoint.lg.value})"
+    },
+    "xl": {
+      "value": "screen and (min-width: {size.breakpoint.xl.value})"
+    }
+  }
+}

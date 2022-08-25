@@ -1,0 +1,4 @@
+{
+  "scripts/**/*.js": "eslint --fix",
+  "*.{js,json,md}": "prettier --write --ignore-unknown"
+}

@@ -1,0 +1,14 @@
+{
+  "size": {
+    "font": {
+      "xs": { "value": "12px" },
+      "sm": { "value": "14px" },
+      "base": { "value": "16px" },
+      "md": { "value": "18px" },
+      "lg": { "value": "24px" },
+      "xl": { "value": "30px" },
+      "2xl": { "value": "48px" },
+      "3xl": { "value": "60px" }
+    }
+  }
+}

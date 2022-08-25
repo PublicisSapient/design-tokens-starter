@@ -1,0 +1,9 @@
+{
+  "color": {
+    "primary": {
+      "base": { "value": "#4dd0e1" },
+      "light": { "value": "#88ffff" },
+      "dark": { "value": "#009faf" }
+    }
+  }
+}
