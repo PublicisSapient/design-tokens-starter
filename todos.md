@@ -39,6 +39,8 @@ Create the following items as Github issues for better collaboration.
 
 ## CI/CD Workflows
 
+[ ] Add `next` dist-tag for pre-release
+
 - All PRs to `main` and `next` will run the `build` workflow to ensure that the codebase builds without error
 - All pushes (including merges) to `main` will run the `release` workflow.
   - Releases an npm module on the `@latest` dist tag which can be installed with `npm i @PublicisSapient/design-tokens`
