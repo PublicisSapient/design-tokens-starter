@@ -5,7 +5,13 @@ const isPreRelease = process.env.NPM_PRE_RELEASE;
 // https://semantic-release.gitbook.io/semantic-release/usage/configuration
 // Dry Run: `NPM_TOKEN=blah npx semantic-release --dry-run`
 const config = {
-    branches: ['main', { name: 'next', prerelease: true }],
+    branches: [
+        'main',
+        {
+            name: 'next',
+            prerelease: true,
+        },
+    ],
     plugins: [
         [
             // https://github.com/semantic-release/commit-analyzer#readme

@@ -9,7 +9,10 @@
     "url": "https://github.com/PublicisSapient/design-tokens-starter.git"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "build": "npm run tokens && npm run tailwind && npm run pkg && npm run docs",
