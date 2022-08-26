@@ -10,14 +10,14 @@ All brands are contained in a single package.
 See the Github Package Registry requirements for [installing a package](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#installing-a-package) into your project.
 
 ```shell
-npm install @PublicisSapient/design-tokens-starter
+npm install @publicissapient/design-tokens-starter
 ```
 
 Use one of the following path structures for importing files:
 
 ```
-@PublicisSapient/design-tokens-starter/<brand>/<file>
-@PublicisSapient/design-tokens-starter/<brand>/<theme>/<file>
+@publicissapient/design-tokens-starter/<brand>/<file>
+@publicissapient/design-tokens-starter/<brand>/<theme>/<file>
 ```
 
 ## Usage

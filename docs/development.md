@@ -16,7 +16,7 @@ A pre-release can be published by merging a pull-request into the `next` branch.
 The NPM package can be installed by appending the `@next` to the package name:
 
 ```
-npm install @PublicisSapient/design-tokens-starter@next
+npm install @publicissapient/design-tokens-starter@next
 ```
 
 The CDN distribution is available in the `next` directory at the CDN root URL.

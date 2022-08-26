@@ -43,11 +43,11 @@ Create the following items as Github issues for better collaboration.
 
 - All PRs to `main` and `next` will run the `build` workflow to ensure that the codebase builds without error
 - All pushes (including merges) to `main` will run the `release` workflow.
-  - Releases an npm module on the `@latest` dist tag which can be installed with `npm i @PublicisSapient/design-tokens`
+  - Releases an npm module on the `@latest` dist tag which can be installed with `npm i @publicissapient/design-tokens`
   - Publishes files to the CDN URL in the root directory and as a version directory: `x.x.x/`.
 
 ### Pre Releases
 
 - All pushes (including merges) to `next` will run the `pre-release` workflow.
-  - Releases an npm module on the `@next` dist tag which can be installed with `npm i @PublicisSapient/design-tokens@next`
+  - Releases an npm module on the `@next` dist tag which can be installed with `npm i @publicissapient/design-tokens@next`
   - Publishes to the CDN URL in the `next/` directory with the same structure at the root directory.
