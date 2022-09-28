@@ -6,11 +6,9 @@ Create the following items as Github issues for better collaboration.
 
 [ ] [Tokens] Animation/Motion/Time (Easing, Duration, Timing)
 [ ] [Tokens] Opacity
-[ ] [Tokens] Option for themes to not inherit, but instead patch/diff?
+[ ] [Style Dictionary] Option for themes to not inherit, but instead patch/diff?
 
 ## Tailwind Improvements
-
-[ ] [Tailwind] Fix class escape issues in docs site: `bg-primary-light\/30` should be applied to example as `bg-primary-light/30`
 
 ## Dev Documentation
 
@@ -20,6 +18,7 @@ Create the following items as Github issues for better collaboration.
 
 ## Docs Site
 
+[ ] [Tailwind] Fix class escape issues in docs site: `bg-primary-light\/30` should be applied to example as `bg-primary-light/30`
 [ ] [Build] Publish build to GH Pages
 [ ] [Build] Option to make verbose logging optional
 [ ] [Build] Option to open docs after build
@@ -36,6 +35,10 @@ Create the following items as Github issues for better collaboration.
     - <https://masteringjs.io/tutorials/node/import>
     - <https://gist.github.com/sindresorhus/a39789f98801d908bbc7ff3ecc99d99c>
     - Once done, upgrade `globby` and `chalk` to their esmodule-only versions
+
+## Figma Tokens
+
+- [ ] Create a Figma project to show auto-updates of tokens
 
 ## CI/CD Workflows
 
